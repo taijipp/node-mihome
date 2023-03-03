@@ -1,10 +1,10 @@
 {
-  "name": "@dmpr-dev/node-mihome",
+  "name": "@taijipp/node-mihome",
   "version": "0.0.32",
   "description": "Control Mi Home devices, such as Mi Robot Vacuums, Mi Air Purifiers, Mi Smart Home Gateway (Aqara) and more",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxinminax/node-mihome.git"
+    "url": "git+https://github.com/taijipp/node-mihome.git"
   },
   "main": "lib/index.js",
   "directories": {
@@ -23,7 +23,7 @@
     "aqara",
     "yeelight"
   ],
-  "author": "maxinminax <ng.nhuphu@gmail.com>",
+  "author": "taijipp <taijipp@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -41,9 +41,9 @@
     "yargs": "^16.0.3"
   },
   "bugs": {
-    "url": "https://github.com/maxinminax/node-mihome/issues"
+    "url": "https://github.com/taijipp/node-mihome/issues"
   },
-  "homepage": "https://github.com/maxinminax/node-mihome#readme",
+  "homepage": "https://github.com/taijipp/node-mihome#readme",
   "bin": {
     "miio": "./cli/index.js"
   },
