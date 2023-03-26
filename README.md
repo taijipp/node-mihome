@@ -9,13 +9,13 @@ See [DEVICES.md](DEVICES.md) for full list of supported devices.
 ## Installation
 
 ```sh
-npm install @dmpr-dev/node-mihome
+npm install @taijipp/node-mihome
 ```
 
 ## Usage
 
 ```javascript
-const mihome = require('@dmpr-dev/node-mihome');
+const mihome = require('@taijipp/node-mihome');
 ```
 
 Some devices aren't supported over local protocol (miIO) so you need to use cloud protocol (MIoT) to control those devices. User and password for [Mi Account](https://account.xiaomi.com/) is required to use cloud protocol.
